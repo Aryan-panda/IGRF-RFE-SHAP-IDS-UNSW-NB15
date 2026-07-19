@@ -35,7 +35,7 @@ All primary experiments (RF, XGBoost, and PyTorch MLP) are implemented in [main.
 
 * 📓 [main.ipynb](main.ipynb): Core notebook containing baseline comparisons and progressive Attempts 1 to 11.
 * 📓 [explainable_ai.ipynb](explainable_ai.ipynb): Interpretability pipeline calculating global feature importances, beeswarm plots, and waterfall charts using **SHAP**.
-* 📁 `models/`: Central cache directory containing the 16 pre-trained model files (`.joblib` and `.pth`).
+* 📁 `models/`: Central cache directory. (Download pre-trained weights from the [GitHub Releases Page](https://github.com/Aryan-panda/IGRF-RFE-SHAP-IDS-UNSW-NB15/releases/tag/v1.0.0) and place them here).
 * 📁 `data/`: Directory where the raw UNSW-NB15 CSV datasets are stored.
 * 📄 [requirements.txt](requirements.txt): Complete dependency list.
 
