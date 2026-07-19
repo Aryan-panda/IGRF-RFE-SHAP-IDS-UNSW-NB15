@@ -59,4 +59,27 @@ Our **SHAP Explainability analysis** revealed that the bottom 8 features (`tcprt
 By dropping these 8 features entirely, we reduced feature capture overhead by **35%** (from 23 down to 15 features) while maintaining an accuracy of **84.90%** (virtually identical to the 23-feature model's peak of **84.94%**). 
 
 Furthermore, our refined Attempt 11 hybrid model combines key flow ratios with SHAP-based feature selection to reduce feature count to **20 features** while setting a **new peak classification record of 84.95%** accuracy. This provides a massive boost in network sensor throughput with practically zero impact on security.
-# IGRF-RFE-SHAP-IDS-UNSW-NB15
+
+---
+
+## ✍️ Citation
+
+If you use this work in your research or projects, please cite:
+
+```text
+Aryan Panda.
+IGRF-RFE-SHAP-IDS-UNSW-NB15.
+GitHub Repository, 2026.
+```
+
+Or use the BibTeX format:
+```bibtex
+@misc{panda2026igrf,
+  author       = {Aryan Panda},
+  title        = {IGRF-RFE-SHAP-IDS-UNSW-NB15: Multiclass Intrusion Detection System},
+  year         = {2026},
+  publisher    = {GitHub},
+  journal      = {GitHub Repository},
+  howpublished = {\url{https://github.com/Aryan-panda/IGRF-RFE-SHAP-IDS-UNSW-NB15}}
+}
+```
