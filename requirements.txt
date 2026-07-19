@@ -1,0 +1,12 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+imbalanced-learn
+shap
+optuna
+lightgbm
