@@ -14,7 +14,7 @@ All primary experiments (RF, XGBoost, and PyTorch MLP) are implemented in [main.
 | :--- | :--- | :--- | :--- | :--- |
 | **Baseline (RF)** | Random Forest | Predefined Split (Severe Covariate Shift) | **79.54%** | `rf_baseline.joblib` |
 | **Baseline (XGB)** | XGBoost (Default) | Predefined Split (Severe Covariate Shift) | **80.48%** | `xgb_baseline.joblib` |
-| **Baseline (MLP)** | PyTorch MLP | Combined Stratified Random Split (Original MLP notebook) | **84.82%** | `mlp_model.pth` |
+| **Baseline (MLP)** | PyTorch MLP | Combined Stratified Random Split (Original MLP notebook) | **83.61%** | `mlp_model.pth` |
 | **Attempt 1** | XGBoost (Default) | Combined Stratified Random Split (Resolves shift) | **84.56%** | `xgb_attempt1.joblib` |
 | **Attempt 2** | XGBoost (Tuned) | Randomized Split + Hyperparameter Tuning | **84.85%** | `xgb_attempt2.joblib` |
 | **Attempt 3** | XGBoost Ensemble | Soft-Voting combination of Attempt 1 + Attempt 2 | **84.77%** | `xgb_attempt3.joblib` |
